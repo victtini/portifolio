@@ -1,0 +1,73 @@
+
+  .home_contaiener{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+}
+.home_container h1{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+    color: rgb(12, 1, 1);
+    font-weight: 20px;
+}
+
+.home_container h1 span {
+    color:rgb(172, 5, 5);
+    padding: 0 .2em;
+    background-color: rgb(49, 49, 49);
+}
+.home_container p{
+    margin-bottom: 1.5em;
+    color: rgb(44, 44, 44);
+    font-size: 20px;
+}
+/* .home_container img{
+    width: 800px;
+    margin: 0;
+
+}   */
+.description{
+   align-items: center;
+   width: 850px;
+   padding-left: 100px;
+}
+.me{
+    display: flex;
+}
+.profile {
+    width: 470px; /* Reduz a largura */
+    height: 500px; /* Torna a altura igual à largura */
+    display: block; /* Garante alinhamento como bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding-top: 10px;
+    border-radius: 20px;
+    border-top: 20px;
+}
+
+
+
+.header{
+    margin-top: 0;
+    width: 100%; /* Garante que ocupa toda a largura da janela */
+    text-align: center;
+    background: rgb(197,140,235);
+background: linear-gradient(90deg, rgba(197,140,235,1) 0%, rgba(196,91,201,1) 41%, rgba(137,69,168,1) 57%, rgba(78,43,143,1) 82%, rgba(14,11,111,1) 100%); /* Cor do fundo */
+    padding: 10px 0; /* Espaçamento interno */
+    color: white; /* Cor do texto */
+    margin: 0; /* Remove margens */
+}
+
+
+.contact {
+    bottom: 0;
+    width: 100%; /* Garante que ocupa toda a largura da janela */
+    text-align: center;
+    background: rgb(197,140,235);
+    background: linear-gradient(90deg, rgba(197,140,235,1) 0%, rgba(196,91,201,1) 41%, rgba(137,69,168,1) 57%, rgba(78,43,143,1) 82%, rgba(14,11,111,1) 100%); /* Cor do fundo */
+    padding: 10px 0; /* Espaçamento interno */
+    color: white; /* Cor do texto */
+    margin: 0; /* Remove margens */
+}

@@ -1,0 +1,52 @@
+.skills {
+    margin: 20px auto; /* Centraliza a caixa horizontalmente */
+    background-color: #545454;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px; /* Define a largura máxima da caixa */
+}
+
+.skills h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.skillsList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.skillItem {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    color: #333;
+    transition: transform 0.2s;
+}
+
+.skillItem:hover {
+    transform: translateY(-5px);
+}
+
+.skillBar {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.skillLevel {
+    background-color: #76c7c0;
+    height: 10px;
+    border-radius: 4px;
+}
